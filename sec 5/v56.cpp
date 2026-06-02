@@ -81,7 +81,7 @@ bool binarySearch(int arr[][4] , int rows , int col, int target) {
         else {
             e = mid - 1;
         }
-        int mid = s + (e - s) / 2;
+        mid = s + (e - s) / 2;
     }
     return false;
 

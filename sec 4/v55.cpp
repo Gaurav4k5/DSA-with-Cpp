@@ -19,7 +19,7 @@ using namespace std;
 //         else{
 //             last = mid - 1;
 //         }
-//         int mid = first + (last - first)/2;
+//         mid = first + (last - first)/2;
 //     }
 //     return -1;
 
@@ -45,7 +45,7 @@ int LastOccurence(vector<int> v, int target) {
         else if (target < v[mid]) {
             e = mid - 1;
         }
-        int mid = s + (e - s)/2; 
+        mid = s + (e - s)/2; 
     }
     return ans;
 }
@@ -71,7 +71,7 @@ int LastOccurence(vector<int> v, int target) {
 //         else if (target < v[mid]) {
 //             e = mid - 1;
 //         }
-//         int mid = s + (e - s)/2; 
+//         mid = s + (e - s)/2; 
 //     }
 //     return ans;
 // }
